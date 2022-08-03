@@ -32,3 +32,7 @@ info: ::1 - - [03/Aug/2022:11:06:20 +0000] "POST /api/v1/users HTTP/1.1" 201 272
 
 info: ::1 - - [03/Aug/2022:11:09:44 +0000] "POST /api/v1/users HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [03/Aug/2022:11:29:03 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [03/Aug/2022:11:29:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 271 "-" "PostmanRuntime/7.29.2"
+
