@@ -1,0 +1,30 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-04T02:02:53.270Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:02:53.309Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-04T02:24:39.799Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:24:39.830Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-04T02:25:10.549Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:25:10.593Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Book"
+    at model.Query.exec (C:\CFP_170\NodeJs\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/books/621588af05253301a4fda5ce 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T02:25:47.140Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Book"
+    at model.Query.exec (C:\CFP_170\NodeJs\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/books/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T02:27:13.334Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-04T02:38:03.395Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:38:03.520Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-04T10:16:10.892Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:16:10.922Z"}
