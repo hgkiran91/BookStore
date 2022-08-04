@@ -80,3 +80,11 @@ info: ::1 - - [04/Aug/2022:02:27:13 +0000] "GET /api/v1/books/6214803b05253301a4
 
 info: ::1 - - [04/Aug/2022:02:38:07 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1345 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [04/Aug/2022:10:16:23 +0000] "GET /api/v1/books HTTP/1.1" 200 9414 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [04/Aug/2022:10:16:35 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1345 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [04/Aug/2022:10:19:43 +0000] "POST /api/v1/users HTTP/1.1" 201 269 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [04/Aug/2022:10:20:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 267 "-" "PostmanRuntime/7.29.2"
+
