@@ -107,3 +107,82 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-08-04T02:27:13.334Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Passowrd
+    at _callee5$ (C:\CFP_170\NodeJs\BookStore\src\services\/user.service.js:53:13)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-05T05:52:03.082Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Passowrd
+    at _callee5$ (C:\CFP_170\NodeJs\BookStore\src\services\/user.service.js:53:13)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-05T05:53:56.590Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.addBook is not a function
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\controllers\/cart.controller.js:12:38)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addBook (C:\CFP_170\NodeJs\BookStore\src\controllers\/cart.controller.js:10:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/carts/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T14:37:33.382Z"}
+error: 
+    status - 500 
+    message - ReferenceError: found is not defined
+    at forEach (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:30:26)
+    at CoreDocumentArray.forEach (<anonymous>)
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:27:28)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-08T10:55:33.092Z"}
+error: 
+    status - 500 
+    message - ReferenceError: books is not defined
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:42:109)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-08T10:56:13.377Z"}

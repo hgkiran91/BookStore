@@ -1,0 +1,37 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T14:35:20.420Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:35:20.482Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.addBook is not a function
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\controllers\/cart.controller.js:12:38)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addBook (C:\CFP_170\NodeJs\BookStore\src\controllers\/cart.controller.js:10:22)
+    at Layer.handle [as handle_request] (C:\CFP_170\NodeJs\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CFP_170\NodeJs\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/carts/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T14:37:33.382Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T14:38:46.842Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:38:46.894Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T14:46:38.067Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:46:38.097Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T14:54:20.362Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:54:20.404Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T14:56:30.949Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T14:56:30.983Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T15:01:46.793Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T15:01:46.918Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-07T15:09:45.668Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T15:09:45.700Z"}

@@ -1,0 +1,44 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T10:49:31.341Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T10:49:31.405Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T10:54:49.263Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T10:54:49.291Z"}
+error: 
+    status - 500 
+    message - ReferenceError: found is not defined
+    at forEach (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:30:26)
+    at CoreDocumentArray.forEach (<anonymous>)
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:27:28)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-08T10:55:33.092Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T10:56:09.954Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T10:56:09.990Z"}
+error: 
+    status - 500 
+    message - ReferenceError: books is not defined
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:42:109)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-08T10:56:13.377Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T10:56:41.084Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T10:56:41.125Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T12:25:17.689Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T12:25:17.772Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T12:31:22.318Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T12:31:22.343Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-08T12:36:58.720Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T12:36:58.757Z"}

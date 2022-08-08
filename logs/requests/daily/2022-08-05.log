@@ -1,0 +1,22 @@
+info: ::1 - - [05/Aug/2022:05:52:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:05:53:36 +0000] "POST /api/v1/users HTTP/1.1" 201 266 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:05:53:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:05:57:44 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:05:57:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:06:05:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:06:07:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:07:22:28 +0000] "POST /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:07:22:44 +0000] "POST /api/v1/carts HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:23:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 270 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:24:13 +0000] "POST /api/v1/carts/62ecb158f9ac9d53ac29a90e/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjYyZWNiMTU4ZjlhYzlkNTNhYzI5YTkwZSIsImZpcnN0TmFtZSI6Ikdvd3JhdiIsImVtYWlsIjoiZ293cmF2QGdtYWlsLmNvbSIsImlhdCI6MTY1OTY5ODU5Nn0.TDaywPp9nk6gvLbD_wapcddoqYfqijyVvACDEYgWcUo HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
+
