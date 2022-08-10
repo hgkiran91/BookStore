@@ -30,3 +30,27 @@ info: ::1 - - [08/Aug/2022:12:38:06 +0000] "POST /api/v1/carts/6214803b05253301a
 
 info: ::1 - - [08/Aug/2022:12:38:14 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 1495 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [08/Aug/2022:13:17:19 +0000] "PUT /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:20:13 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 1500 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:20:39 +0000] "PUT /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:26:04 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 1323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:26:06 +0000] "POST /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 1324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:26:30 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 201 1506 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:26:35 +0000] "POST /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 201 1506 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:26:51 +0000] "PUT /api/v1/carts/621588af05253301a4fda5ce HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:30:11 +0000] "POST /api/v1/carts/621588d505253301a4fda5cf HTTP/1.1" 201 1715 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:30:24 +0000] "POST /api/v1/carts/621588d505253301a4fda5cf HTTP/1.1" 201 1715 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:30:32 +0000] "PUT /api/v1/carts/621588d505253301a4fda5cf HTTP/1.1" 201 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:13:33:32 +0000] "PUT /api/v1/carts/6214803b05253301a4fda584 HTTP/1.1" 201 539 "-" "PostmanRuntime/7.29.2"
+

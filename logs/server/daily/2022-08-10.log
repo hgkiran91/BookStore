@@ -1,0 +1,177 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T02:02:36.042Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T02:02:36.104Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T06:37:07.924Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:37:07.965Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T06:41:23.018Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T06:41:23.050Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T07:01:35.387Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T07:01:35.422Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:34:49.156Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:34:49.197Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkBook is not defined
+    at _callee$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:10:26)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T08:34:55.550Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:35:35.745Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:35:35.783Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:37:00.103Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:37:00.144Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:38:07.154Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:38:07.191Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:55:45.828Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:55:45.879Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:57:14.339Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:57:14.378Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T08:58:14.510Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T08:58:14.547Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T08:59:24.459Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T09:15:59.693Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T09:15:59.732Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T09:16:10.513Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T10:41:08.060Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T10:41:08.114Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T10:41:45.949Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T10:41:46.049Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T10:41:51.276Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T10:47:46.285Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T10:47:46.323Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T10:49:21.421Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T10:49:21.495Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T10:49:51.689Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T11:36:21.956Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T11:36:21.997Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T11:36:27.462Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T11:39:36.412Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T11:39:36.456Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T11:39:39.570Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T11:39:47.206Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T11:44:10.537Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T11:44:10.585Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T11:44:14.418Z"}
+error: 
+    status - 500 
+    message - Error: Book not in the cart
+    at _callee2$ (C:\CFP_170\NodeJs\BookStore\src\services\/cart.service.js:69:19)
+    at tryCatch (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\CFP_170\NodeJs\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-10T11:44:18.748Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T11:45:40.152Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T11:45:40.189Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T11:49:29.004Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T11:49:29.038Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T11:51:43.461Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T11:51:43.490Z"}
