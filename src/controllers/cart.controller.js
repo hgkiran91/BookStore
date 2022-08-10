@@ -73,7 +73,7 @@ export const purchased = async (req, res, next) => {
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,
-            message: 'Books Fetched from Cart successfully'
+            message: 'Purchased status changed successfully'
         });
     } catch (error) {
         res.status(HttpStatus.BAD_REQUEST).json({
