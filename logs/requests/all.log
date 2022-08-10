@@ -320,3 +320,7 @@ info: ::1 - - [10/Aug/2022:11:51:46 +0000] "PUT /api/v1/carts/isPurchased HTTP/1
 
 info: ::1 - - [10/Aug/2022:12:14:11 +0000] "PUT /api/v1/carts/isPurchased HTTP/1.1" 401 40 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [10/Aug/2022:12:15:06 +0000] "PUT /api/v1/carts/isPurchased HTTP/1.1" 201 1890 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:12:17:44 +0000] "POST /api/v1/carts/621588d505253301a4fda5cf HTTP/1.1" 201 1895 "-" "PostmanRuntime/7.29.2"
+
