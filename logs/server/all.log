@@ -536,3 +536,11 @@ error:
    {"timestamp":"2022-08-10T15:19:40.565Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T15:30:03.852Z"}
 info: Connected to the database. {"timestamp":"2022-08-10T15:30:03.908Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-10T17:36:42.647Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T17:36:42.689Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T02:49:19.963Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T02:49:20.077Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T02:51:44.719Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T02:51:44.834Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T02:52:36.910Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T02:52:36.963Z"}
