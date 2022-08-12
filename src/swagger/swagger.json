@@ -1,0 +1,392 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": "Book Store",
+        "description": "Book Store is an Online book sales platform similar to e-commerce websites"
+    },
+    "host": "localhost:4000",
+    "basePath": "/api/v1",
+    "tags": [
+        {
+            "name": "Book Store using express CLI",
+            "description": "This is similar to e-commerce website"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "description": "User Registration",
+                "parameters": [
+                    {
+                        "name": "Register New User",
+                        "in": "body",
+                        "description": "Register User",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "New user is created"
+                    },
+                    "401": {
+                        "description": "Internal server error"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "description": "User Login",
+                "parameters": [
+                    {
+                        "name": "login user",
+                        "in": "body",
+                        "description": "login",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "New user is created"
+                    },
+                    "401": {
+                        "description": "Internal server error"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/carts/{_id}": {
+            "post": {
+                "tags": [
+                    "Carts"
+                ],
+                "description": "Add a book to the User by book Id",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Book added to the user successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Carts"
+                ],
+                "description": "Remove book from the User Cart by book Id",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Book removed from the user cart successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/carts": {
+            "get": {
+                "tags": [
+                    "Carts"
+                ],
+                "description": "Get book from Cart",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Get all Books",
+                        "description": "Get all Books",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All Books fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/carts/isPurchased": {
+            "put": {
+                "tags": [
+                    "Carts"
+                ],
+                "summary": "isPurchase for User",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "isPurchase",
+                        "description": "isPurchase",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Book archieved succesfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/wishlist/{_id}": {
+            "post": {
+                "tags": [
+                    "Wishlist"
+                ],
+                "description": "Add a book to the wishlist by book Id",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Book added to the wishlist successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Wishlist"
+                ],
+                "description": "Remove book from the User wishlist by book Id",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Book removed from the user wishlist successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/wishlist": {
+            "get": {
+                "tags": [
+                    "Wishlist"
+                ],
+                "description": "Get book from wishlist",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Get all Books",
+                        "description": "Get all Books",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All Books fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/userDetails": {
+            "post": {
+                "tags": [
+                    "UserDetails"
+                ],
+                "description": "Adding UserDetails",
+                "parameters": [
+                    {
+                        "name": "Adding UserDetails",
+                        "in": "body",
+                        "description": "UserDetails",
+                        "schema": {
+                            "$ref": "#/definitions/UserDetails"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "UserDetails is created"
+                    },
+                    "401": {
+                        "description": "Internal server error"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "login": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "UserDetails": {
+            "type": "object",
+            "properties": {
+                "Name": {
+                    "type": "string"
+                },
+                "PhoneNumber": {
+                    "type": "string"
+                },
+                "Pincode": {
+                    "type": "string"
+                },
+                "Locality": {
+                    "type": "string"
+                },
+                "Address": {
+                    "type": "string"
+                },
+                "City": {
+                    "type": "string"
+                },
+                "Landmark": {
+                    "type": "string"
+                },
+                "Type": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

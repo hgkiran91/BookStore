@@ -544,3 +544,35 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T0
 info: Connected to the database. {"timestamp":"2022-08-11T02:51:44.834Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T02:52:36.910Z"}
 info: Connected to the database. {"timestamp":"2022-08-11T02:52:36.963Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T15:11:53.116Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T15:11:53.164Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T15:16:04.751Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T15:16:04.784Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T15:40:53.326Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T15:40:53.363Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T15:42:55.293Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T15:42:55.328Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T15:48:46.239Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T15:48:46.262Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T16:02:12.181Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T16:02:12.207Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "isPurchased" (type string) at path "_id" for model "Book"
+    at model.Query.exec (C:\CFP_170\NodeJs\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\CFP_170\NodeJs\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/carts/isPurchased 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-11T17:08:09.654Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T17:13:26.009Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T17:13:26.048Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T17:33:48.215Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T17:33:48.286Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T17:36:10.371Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T17:36:10.408Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T17:42:31.481Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T17:42:31.544Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-08-11T17:44:12.122Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T17:44:12.160Z"}
